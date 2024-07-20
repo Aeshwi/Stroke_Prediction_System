@@ -9,18 +9,18 @@ This project aims to predict stroke events using a healthcare dataset. The datas
 The dataset used in this project is healthcare-dataset-stroke-data.csv. The dataset consists of 12 columns and a total of 5110 entries. The aim of using this dataset is to predict whether a
 patient will experience stroke or not. It includes the following columns:
 
-id: Unique identifier for each patient.
-gender: Gender of the patient.
-age: Age of the patient.
-hypertension: Whether the patient has hypertension.
-heart_disease: Whether the patient has heart disease.
-ever_married: Marital status of the patient.
-work_type: Type of work the patient does.
-Residence_type: Type of residence the patient lives in.
-avg_glucose_level: Average glucose level in the blood.
-bmi: Body Mass Index.
-smoking_status: Smoking status of the patient.
-stroke: Whether the patient had a stroke.
+id: Unique identifier for each patient.<br />
+gender: Gender of the patient.<br />
+age: Age of the patient.<br />
+hypertension: Whether the patient has hypertension.<br />
+heart_disease: Whether the patient has heart disease.<br />
+ever_married: Marital status of the patient.<br />
+work_type: Type of work the patient does.<br />
+Residence_type: Type of residence the patient lives in.<br />
+avg_glucose_level: Average glucose level in the blood.<br />
+bmi: Body Mass Index.<br />
+smoking_status: Smoking status of the patient.<br />
+stroke: Whether the patient had a stroke.<br />
 # 1. Data Loading and Preprocessing
 Load the Data: Load the dataset and inspect its structure and contents.
 
