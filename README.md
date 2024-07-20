@@ -21,7 +21,7 @@ avg_glucose_level: Average glucose level in the blood.<br />
 bmi: Body Mass Index.<br />
 smoking_status: Smoking status of the patient.<br />
 stroke: Whether the patient had a stroke.<br />
-# 1. Data Loading and Preprocessing
+# Data Loading and Preprocessing
 Load the Data: Load the dataset and inspect its structure and contents.
 
 Drop Unnecessary Columns: Remove the id column as it does not contribute to the prediction.
@@ -46,19 +46,19 @@ Evaluation Function: Define a function to evaluate the models, which includes ca
 Perform Grid Search for Hyperparameter Tuning: Optimize model parameters using Grid Search with cross-validation to find the best performing model configurations. This process involves defining parameter grids for each model and evaluating the models with different parameter combinations to select the best model.
 
 # 4. Results
-Accuracy Score of each model: -
-● Random Forest: 0.95 <br />
+Accuracy Score of each model: <br />
+● Random Forest: 0.95 
 ● Bagging Classifier: 0.80<br />
 ● AdaBoost: 0.95<br />
 ● XGBoost: 0.94<br />
 ● KNN: 0.89<br />
 
-# 5. Correlation Analysis
+# Correlation Analysis
 Perform a correlation analysis to identify highly correlated features. This helps in understanding the relationships between different variables and selecting the most relevant features for the model.
 
-# 6. Visualization
+# Visualization
 Visualize the data and model results using various plots such as scatter plots and heatmaps to gain insights into the data distribution and model performance.
 
-# 7. Conclusion
+# Conclusion
 The project successfully preprocesses the healthcare dataset, handles missing values, balances the dataset, scales features, and builds and evaluates multiple classification models to predict stroke occurrences. Hyperparameter tuning using Grid Search improves the model performance, and correlation analysis helps in selecting the most relevant features for the prediction task.
 
