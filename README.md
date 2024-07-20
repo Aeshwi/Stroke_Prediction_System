@@ -37,3 +37,28 @@ Balance the Dataset using SMOTE: Since the dataset is imbalanced (more instances
 Further Split the Data: Split the balanced dataset into training and testing sets to evaluate model performance.
 
 Feature Scaling: Scale the features to ensure that all variables contribute equally to the model training.
+
+# Model Building and Evaluation
+Train and Evaluate Multiple Models: the Ensemble Learning technique of bagging and boosting classifiers to reduce the variance and bias respectively. Train various classification models such as Random Forest, Bagging Classifier, AdaBoost, XGBoost, and K-Nearest Neighbors using the training data. Evaluate these models based on their prediction performance on the test data.
+
+Evaluation Function: Define a function to evaluate the models, which includes calculating sensitivity, specificity, accuracy, precision, recall, F1 score, and AUC score. Additionally, plot the Receiver Operating Characteristic (ROC) curve to visualize model performance.
+
+Perform Grid Search for Hyperparameter Tuning: Optimize model parameters using Grid Search with cross-validation to find the best performing model configurations. This process involves defining parameter grids for each model and evaluating the models with different parameter combinations to select the best model.
+
+# 4. Results
+Accuracy Score of each model: -
+● Random Forest: 0.95 <br />
+● Bagging Classifier: 0.80<br />
+● AdaBoost: 0.95<br />
+● XGBoost: 0.94<br />
+● KNN: 0.89<br />
+
+# 5. Correlation Analysis
+Perform a correlation analysis to identify highly correlated features. This helps in understanding the relationships between different variables and selecting the most relevant features for the model.
+
+# 6. Visualization
+Visualize the data and model results using various plots such as scatter plots and heatmaps to gain insights into the data distribution and model performance.
+
+# 7. Conclusion
+The project successfully preprocesses the healthcare dataset, handles missing values, balances the dataset, scales features, and builds and evaluates multiple classification models to predict stroke occurrences. Hyperparameter tuning using Grid Search improves the model performance, and correlation analysis helps in selecting the most relevant features for the prediction task.
+
