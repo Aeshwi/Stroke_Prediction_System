@@ -6,7 +6,7 @@ crucial for effective treatment.
 This project aims to predict stroke events using a healthcare dataset. The dataset contains various health-related attributes which are analyzed, preprocessed, and used to build multiple classification models to predict stroke occurrences. The project includes steps for handling missing values, encoding categorical variables, balancing the dataset, scaling features, and optimizing model parameters using Grid Search.
 
 ## Dataset Information
-The dataset used in this project is [Stroke Prediction Dataset]([https://pages.github.com/](https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset?resource=download)). The dataset consists of 12 columns and a total of 5110 entries. The aim of using this dataset is to predict whether a
+The dataset used in this project is [Stroke Prediction Dataset]([https://pages.github.com/](https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset/data). The dataset consists of 12 columns and a total of 5110 entries. The aim of using this dataset is to predict whether a
 patient will experience stroke or not. It includes the following columns:
 
 id: Unique identifier for each patient.<br />
